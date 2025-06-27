@@ -12,7 +12,7 @@ The dataset comprises high-resolution images of blood cells with two labels:
 - **Uninfected**: Healthy cells.
 
 > The dataset is balanced, with an approximately equal number of samples from each class.
-![Sample Predictions](barchartofeffectedornot.png)
+![Sample Predictions](images.png)
 ### 🔍 Sample Predictions
 
 Below are examples of model predictions on unseen images:
