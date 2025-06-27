@@ -17,22 +17,22 @@ The dataset comprises high-resolution images of blood cells with two labels:
 
 Below are examples of model predictions on unseen images:
 
-![Sample Predictions](attachment:Screenshot_2025-06-27_180431.png)
+![Sample Predictions](imageastest.png)
 
 ---
 ## Labeling them as we need 
-![Sample Predictions](attachment:Screenshot_2025-06-27_180431.png)
+![Sample Predictions](tag.png)
 
 
 ## Normalizing the given data 
 
-![Sample Predictions](attachment:Screenshot_2025-06-27_180431.png)
+![Sample Predictions](normalize.png)
 
 
 ## 🧠 Model Architecture
 
 We use a **Sequential CNN** built using TensorFlow/Keras with the following architecture:
-
+```
 | Layer        | Output Shape   | Parameters |
 | ------------ | -------------- | ---------- |
 | Conv2D       | (222, 222, 32) | 896        |
@@ -45,7 +45,7 @@ We use a **Sequential CNN** built using TensorFlow/Keras with the following arch
 | Dense (128)  | (128)          | 11,075,712 |
 | Dropout      | (128)          | 0          |
 | Dense (1)    | (1)            | 129        |
-
+```
 **Total Parameters:** ~11.6 million  
 **Trainable Parameters:** ~11.6 million
 
@@ -87,14 +87,14 @@ Balanced class distribution ensures fair training:
 ## Confusion Matrix
 The confusion matrix shows the model’s performance on the test set:
 
-![Sample Predictions](attachment:Screenshot_2025-06-27_180431.png)
+![Sample Predictions](aconfutionmetrix.png)
 
 
 Note: The matrix shows that all predictions were for the "Parasitized" class. This may indicate a training bias or data leakage that should be investigated.
 
 Accuracy and Loss Over Epochs
 Model accuracy and loss on training and validation sets:
-![Sample Predictions](attachment:Screenshot_2025-06-27_180431.png)
+![Sample Predictions](accuracy.png)
 
 Accuracy reaches ~87%
 
