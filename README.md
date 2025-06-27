@@ -87,7 +87,7 @@ Balanced class distribution ensures fair training:
 ## Confusion Matrix
 The confusion matrix shows the model’s performance on the test set:
 
-![Sample Predictions](aconfutionmetrix.png)
+![Sample Predictions](confutionmetrix.png)
 
 
 Note: The matrix shows that all predictions were for the "Parasitized" class. This may indicate a training bias or data leakage that should be investigated.
