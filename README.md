@@ -17,7 +17,7 @@ The dataset comprises high-resolution images of blood cells with two labels:
 
 Below are examples of model predictions on unseen images:
 
-![Sample Predictions](imageastest.png)
+![Sample Predictions](layers.png)
 
 ---
 ## Labeling them as we need 
