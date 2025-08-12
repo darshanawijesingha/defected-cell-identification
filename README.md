@@ -13,7 +13,7 @@ The dataset comprises high-resolution images of blood cells with two labels:
 
 > The dataset is balanced, with an approximately equal number of samples from each class.
 ![Sample Predictions](images.png)
-### 🔍 Sample Predictions
+### 🔍 Sample Predictions 
 
 Below are examples of model predictions on unseen images:
 
